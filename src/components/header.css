@@ -1,0 +1,160 @@
+.app{
+    background: linear-gradient(58deg, rgba(51,50,60,1) 38%, rgba(2,3,26,0.7008053221288515) 61%);
+    height: 100vh;
+  }
+
+.header {
+    height: 100px;
+   
+}
+
+.dark-mode {
+    background: linear-gradient(0deg, rgba(155,85,42,1) 38%, rgba(26,16,2,0.583158263305322) 91%);
+    height: 100vh;
+}
+
+.sun {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .sun:hover {
+    color: #f39c12; /* Hover effect on Sun/Moon icon */
+  }
+
+.search-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    width: 40%;
+}
+
+.search-input input {
+    padding: 5px 35px 5px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .2);
+}
+
+.search {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.search:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    background-color: #4cbb17;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .2);
+}
+
+.location {
+    color: #000;
+    font-size: 18px;
+}
+
+/* --------------------------- local-time---------------------- */
+.local-time {
+    background-color: rgba(0, 0, 0, .5);
+    width: 90%;
+    padding: 20px 0;
+    align-items: center;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+}
+
+.local-time h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.local-time span {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+/* ------------------------------------ WetherDetails ---------------*/
+.wetherdetails {
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+}
+
+.img {
+    width: 40px;
+}
+
+.center-img {
+    width: 150px;
+    height: 150px;
+}
+
+.pos {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img1 {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+
+/* -------------------- Daily ----------------- */
+
+
+.daily {
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+}
+
+.daily div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/* ------------------------------------ Hourly ---------------*/
+
+.hourly {
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+}
+
+.hourly-bg {
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px 20px;
+    border-radius: 20px;
+}
